@@ -1,6 +1,7 @@
 # Spring_Based-Chat-Application
 # Tech Stack Used: Spring, Socket.IO
-It is a web based chat application that provides an interface for multiple users chatting at real time. Used socket.io for a 2 way connection between client and server. When a new user join, a login page will appear to ask his/her name to enter the chatroom. New user receive a welcome message from admin after joining the room. Receives messsage from server using receive function. Client side JS is added to play with DOM elements. Server side JS will handle the socket.io connections.
+It is a web based chat application that provides an interface for multiple users chatting at real time. Used socket.io for a 2 way connection between client and server. When a new user join, a login page will appear to ask his/her name to enter the chatroom. New user receive a  message about who are already joined in the room & the people who have joined earlier, can see the new person joined message.  Client side JS is added to play with DOM elements. Server side JS will handle the socket.io connections.
+
 Login Page:
 ![image](https://github.com/subhasis07/Spring_Based-Chat-Application/assets/37765567/6128caef-a050-4ae8-8d83-346fed08f5df)
 User Joined the chat room:
